@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Nawin M S, Software Engineer & Backend Developer.">
+    <title>Nawin M S - Software Developer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loading Animation -->
+    <div id="loader" class="loader-container">
+        <div class="loader-content">
+            <span class="bracket">{</span><span class="loader-text">Nawin</span><span class="bracket">}</span>
+        </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="bg-particles">
+        <div class="particle bg-shape1"></div>
+        <div class="particle bg-shape2"></div>
+        <div class="particle bg-shape3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="glass-nav">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <span class="code-tag">&lt;</span>msnawin<span class="code-tag">/&gt;</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section hero-section">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <p class="greeting">Hello, world!</p>
+                    <h1 class="hero-title">
+                        <span class="typing-container">
+                            <span id="typing-text"></span><span class="cursor">|</span>
+                        </span>
+                    </h1>
+                    <p class="hero-tagline">
+                        Computer Science Student | Java Developer | Backend Developer | Passionate About Algorithms
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                        <a href="https://github.com/msnawin" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nawin-m-s/" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.geeksforgeeks.org/profile/nawinsde?tab=activity" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-icon">
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Profile Image -->
+                <div class="hero-image-container reveal">
+                    <div class="profile-glow"></div>
+                    <div class="profile-image-wrapper">
+                        <img src="profile.jpg" alt="Nawin M S Profile Photo" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text glass-card reveal">
+                        <p>Hi, I'm <strong>𝗠. 𝗦. 𝗡𝗮𝘄𝗶𝗻</strong>, a Computer Science student at Velammal Institute
+                            of Technology with a strong passion for <strong>𝗽𝗿𝗼𝗯𝗹𝗲𝗺 𝘀𝗼𝗹𝘃𝗶𝗻𝗴</strong> and
+                            <strong>𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁</strong>. I primarily work with
+                            <strong>𝗝𝗮𝘃𝗮</strong> and focus on <strong>𝗗𝗮𝘁𝗮 𝗦𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝘀 &
+                                𝗔𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀 (𝗗𝗦𝗔)</strong> to build efficient and scalable solutions.
+                        </p>
+
+                        <p>I enjoy breaking down complex problems and transforming them into <strong>𝗰𝗹𝗲𝗮𝗻,
+                                𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗲𝗱 𝗰𝗼𝗱𝗲</strong>. I continuously strengthen my fundamentals in
+                            <strong>𝗗𝗦𝗔, 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗻𝗴 𝗦𝘆𝘀𝘁𝗲𝗺𝘀, 𝗮𝗻𝗱 𝗗𝗕𝗠𝗦</strong>, while improving
+                            my analytical thinking through consistent practice and real-world backend development.
+                        </p>
+
+                        <p>Beyond coding, I am an <strong>𝗜𝗻𝗱𝗶𝗮𝗻 𝗡𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗖𝗵𝗲𝘀𝘀 𝗣𝗹𝗮𝘆𝗲𝗿</strong>
+                            and have represented <strong>Tamil Nadu in three National Chess Championships</strong>. I
+                            have won <strong>𝟴𝟬+ 𝗖𝗵𝗲𝘀𝘀 𝗧𝗼𝘂𝗿𝗻𝗮𝗺𝗲𝗻𝘁𝘀</strong>, which has helped me
+                            develop strong <strong>𝗮𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝗮𝗹 𝘁𝗵𝗶𝗻𝗸𝗶𝗻𝗴, 𝗽𝗮𝘁𝗶𝗲𝗻𝗰𝗲, 𝗮𝗻𝗱
+                                𝘀𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗰 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻-𝗺𝗮𝗸𝗶𝗻𝗴</strong> skills.</p>
+
+                        <p>I have also won <strong>𝟭𝟬+ 𝗖𝗼𝗱𝗶𝗻𝗴 𝗖𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝗼𝗻𝘀</strong> conducted by top
+                            engineering institutions such as <strong>SSN, SRM, CIT, and MIT</strong>, strengthening my
+                            ability to solve challenging algorithmic problems under pressure.</p>
+
+                        <p>Alongside competitive programming, I build <strong>𝗿𝗲𝗮𝗹-𝘄𝗼𝗿𝗹𝗱 𝗯𝗮𝗰𝗸𝗲𝗻𝗱
+                                𝘀𝘆𝘀𝘁𝗲𝗺𝘀</strong> using <strong>𝗦𝗽𝗿𝗶𝗻𝗴 𝗕𝗼𝗼𝘁, 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀,
+                                𝗠𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀, 𝗗𝗼𝗰𝗸𝗲𝗿, 𝗮𝗻𝗱 𝗰𝗹𝗼𝘂𝗱-𝗿𝗲𝗮𝗱𝘆
+                                𝗮𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲𝘀</strong>.</p>
+
+                        <p class="about-goal">
+                            <i class="fas fa-rocket text-primary"></i>
+                            My long-term goal is to become a <strong>𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
+                                𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿</strong> and build impactful technology at top tech companies like
+                            <strong>Google</strong>, where I can solve complex problems and create scalable systems used
+                            by millions of users.
+                        </p>
+                    </div>
+                    <div class="about-stats reveal">
+                        <div class="stat-card glass-card">
+                            <h3 class="stat-number" data-target="750">0</h3>
+                            <p class="stat-label">DSA Problems Solved</p>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <h3 class="stat-number" data-target="10">0</h3>
+                            <p class="stat-label">Competitions Won</p>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <h3 class="stat-number" data-target="80">0</h3>
+                            <p class="stat-label">Chess Tournaments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Tech Stack</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category glass-card reveal stagger-1">
+                        <h3><i class="fas fa-code text-primary"></i> Languages</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
+                            <span class="skill-badge"><i class="fas fa-c"></i> C</span>
+                        </div>
+                    </div>
+
+                    <!-- Core CS -->
+                    <div class="skill-category glass-card reveal stagger-2">
+                        <h3><i class="fas fa-microchip text-primary"></i> Core CS</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">DSA</span>
+                            <span class="skill-badge">OOP</span>
+                            <span class="skill-badge">OS</span>
+                            <span class="skill-badge">DBMS</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-category glass-card reveal stagger-3">
+                        <h3><i class="fas fa-server text-primary"></i> Backend</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Spring Boot</span>
+                            <span class="skill-badge">Spring Security</span>
+                            <span class="skill-badge">REST APIs</span>
+                            <span class="skill-badge">Hibernate</span>
+                            <span class="skill-badge">WebClient</span>
+                        </div>
+                    </div>
+
+                    <!-- Microservices -->
+                    <div class="skill-category glass-card reveal stagger-1">
+                        <h3><i class="fas fa-network-wired text-primary"></i> Microservices</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Eureka</span>
+                            <span class="skill-badge">API Gateway</span>
+                            <span class="skill-badge">Config Server</span>
+                            <span class="skill-badge">RabbitMQ</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category glass-card reveal stagger-2">
+                        <h3><i class="fas fa-database text-primary"></i> Databases</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">MongoDB</span>
+                            <span class="skill-badge">TiDB</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Security -->
+                    <div class="skill-category glass-card reveal stagger-3">
+                        <h3><i class="fas fa-shield-alt text-primary"></i> Tools & Security</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge"><i class="fab fa-git-alt"></i> Git</span>
+                            <span class="skill-badge"><i class="fab fa-docker"></i> Docker</span>
+                            <span class="skill-badge">OAuth2</span>
+                            <span class="skill-badge">JWT</span>
+                            <span class="skill-badge">Keycloak</span>
+                            <span class="skill-badge">OpenAI API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Education</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="timeline reveal">
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 – 2027</span>
+                            <h3 class="timeline-title">Bachelor of Engineering – Computer Science & Engineering</h3>
+                            <h4 class="timeline-subtitle">Velammal Institute of Technology</h4>
+                            <p class="timeline-desc">Focusing on core computer science subjects, algorithms, and
+                                software development practices.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item glass-card mt-4">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 – 2023</span>
+                            <h3 class="timeline-title">Higher Secondary Education</h3>
+                            <h4 class="timeline-subtitle">Velammal Matric.Hr.Sec.School</h4>
+                            <p class="timeline-desc">Focused on fundamentals in science and mathematics, laying a strong
+                                groundwork for engineering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section achievements-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Achievements</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <h3 class="category-heading reveal"><i class="fas fa-laptop-code"></i> Coding Achievements</h3>
+                <div class="achievement-grid coding-achievements">
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="achievement-image-area"
+                            onclick="openModal('achievement1.jpg', 'GeeksforGeeks Institute Rank 1')">
+                            <img src="achievement1.jpg" alt="GeeksforGeeks Institute Rank 1" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>GeeksforGeeks Institute Rank 1</h4>
+                            <p class="achievement-year">2025</p>
+                            <p>Achieved Institute Rank 1 on GeeksforGeeks in 2025 by solving 670+ Data Structures and
+                                Algorithms problems.</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal stagger-1">
+                        <div class="achievement-image-area"
+                            onclick="openModal('ssn_achievement.jpg', '2nd Place — National Level Coding Competition')">
+                            <img src="ssn_achievement.jpg" alt="National Level Coding Competition"
+                                class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>2nd Place — National Level Coding</h4>
+                            <p class="achievement-venue">Chennai Institute of Technology</p>
+                            <p>Secured 2nd place in a national level coding competition demonstrating strong problem
+                                solving and algorithmic thinking.</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal stagger-2">
+                        <div class="achievement-image-area"
+                            onclick="openModal('achievement2.jpg', '2nd Place — National Coding')">
+                            <img src="achievement2.jpg" alt="National Coding Competition SSN" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>2nd Place — National Coding</h4>
+                            <p class="achievement-venue">SSN College of Engineering</p>
+                            <p>Won 2nd place and received a cash award of ₹4,000.</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="achievement-image-area"
+                            onclick="openModal('achievement3.jpg', '1st Place — Coding Ninjas NLCC')">
+                            <img src="achievement3.jpg" alt="Coding Ninjas NLCC" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>1st Place — Coding Ninjas NLCC</h4>
+                            <p class="achievement-venue">Anna University (CEG Campus)</p>
+                            <p>Won 1st place in the Coding Ninjas National Level Coding Competition and received a cash
+                                award of ₹3,500.</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal stagger-1">
+                        <div class="achievement-image-area"
+                            onclick="openModal('achievement4.jpg', '1st Place — LetC Coding Competition')">
+                            <img src="achievement4.jpg" alt="LetC Coding Competition" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>1st Place — LetC Coding</h4>
+                            <p class="achievement-venue">Anna University (CEG Campus)</p>
+                            <p>Topped the LetC coding competition by solving algorithmic challenges efficiently.</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal stagger-2">
+                        <div class="achievement-image-area"
+                            onclick="openModal('madha_achievement.jpg', '1st Place — CodeChef Competition')">
+                            <img src="madha_achievement.jpg" alt="CodeChef Competition" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>1st Place — CodeChef Competition</h4>
+                            <p class="achievement-venue">Madha Engineering College</p>
+                            <p>Secured 1st place with a cash award of ₹2,000.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h3 class="category-heading reveal mt-5"><i class="fas fa-chess-knight"></i> Chess Achievements</h3>
+                <div class="achievement-grid chess-achievements">
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="achievement-image-area"
+                            onclick="openModal('chess1.jpg', '1st Place — 13th Modern Int. FIDE Rated')">
+                            <img src="chess1.jpg" alt="13th Modern Int. FIDE Rated" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>1st Place — 13th Modern Int. FIDE Rated</h4>
+                            <p class="achievement-year">2022</p>
+                            <p>Cash Award ₹25,000</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal stagger-1">
+                        <div class="achievement-image-area"
+                            onclick="openModal('chess2.jpg', '5th Place — MPL U-17 Nationals')">
+                            <img src="chess2.jpg" alt="MPL U-17 Nationals" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>5th Place — MPL U-17 Nationals</h4>
+                            <p class="achievement-venue">Bhubaneswar</p>
+                            <p>Cash Award ₹38,000</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal stagger-2">
+                        <div class="achievement-image-area"
+                            onclick="openModal('chess3.jpg', '2nd Place — TN State U-17')">
+                            <img src="chess3.jpg" alt="TN State U-17" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>2nd Place — TN State U-17</h4>
+                            <p class="achievement-venue">Salem</p>
+                            <p>Selected to represent Tamil Nadu in Nationals</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal">
+                        <div class="achievement-image-area"
+                            onclick="openModal('chess4.jpg', '2nd Place — Carlsen State Level')">
+                            <img src="chess4.jpg" alt="Carlsen State Level" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>2nd Place — Carlsen State Level</h4>
+                            <p class="achievement-venue">Thiruvallur (U-25) | Score: 5/6</p>
+                            <p>2026</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal stagger-1">
+                        <div class="achievement-image-area"
+                            onclick="openModal('chess5.jpg', '1st Place — BBCF TN State Level')">
+                            <img src="chess5.jpg" alt="BBCF TN State Level" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>1st Place — BBCF TN State Level</h4>
+                            <p class="achievement-venue">Saveetha College | Score: 6.5/7</p>
+                            <p>Cash Award ₹5,000 (2023)</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card reveal stagger-2">
+                        <div class="achievement-image-area"
+                            onclick="openModal('chess6.jpg', '1st Place — CM Trophy Tiruvallur')">
+                            <img src="chess6.jpg" alt="CM Trophy Tiruvallur" class="achievement-img">
+                        </div>
+                        <div class="achievement-info">
+                            <h4>1st Place — CM Trophy Tiruvallur</h4>
+                            <p class="achievement-venue">College Men's Chess Championship</p>
+                            <p>Cash Award ₹3,000</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card reveal">
+                        <div class="project-image" style="background: none; overflow: hidden; padding: 0;">
+                            <img src="project1.png" alt="TaskCloud Preview"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div class="project-links">
+                                <a href="https://github.com/msnawin/TaskReminder-Secure1" target="_blank"
+                                    class="btn-icon"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/msnawin/TaskReminder-Secure1" target="_blank"
+                                    class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>TaskCloud – Secure Task Management</h3>
+                            <p>Built backend utilizing Spring Boot, Google OAuth2, and BCrypt. Implemented
+                                priority-based tracking, scheduled background reminders, and persistent TiDB storage
+                                with scalable, secure access controls.</p>
+                            <div class="project-tech">
+                                <span>Spring Boot</span>
+                                <span>OAuth2</span>
+                                <span>TiDB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card reveal stagger-1">
+                        <div class="project-image" style="background: none; overflow: hidden; padding: 0;">
+                            <img src="project2.png" alt="NextMove AI Preview"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div class="project-links">
+                                <a href="https://github.com/msnawin/NextMoveAIExtension" target="_blank"
+                                    class="btn-icon"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/msnawin/NextMoveAIExtension" target="_blank"
+                                    class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>NextMove AI – Research Assistant</h3>
+                            <p>Developed low-latency REST APIs for Chrome extension and web clients. Integrated OpenAI
+                                API for intelligent content extraction and real-time summarization of online research
+                                data.</p>
+                            <div class="project-tech">
+                                <span>REST APIs</span>
+                                <span>OpenAI API</span>
+                                <span>Express/Node</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card reveal stagger-2">
+                        <div class="project-image" style="background: none; overflow: hidden; padding: 0;">
+                            <img src="project3.png" alt="FitTrack AI Preview"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div class="project-links">
+                                <a href="https://github.com/msnawin/FitTrackAI" target="_blank" class="btn-icon"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="https://github.com/msnawin/FitTrackAI" target="_blank" class="btn-icon"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>FitTrack AI – Fitness Platform</h3>
+                            <p>Architected Dockerized microservices connected via RabbitMQ, Eureka, and API Gateway.
+                                Added OpenAI-driven insights and MongoDB for highly-scalable workout tracking and
+                                analytics.</p>
+                            <div class="project-tech">
+                                <span>Microservices</span>
+                                <span>RabbitMQ</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GitHub Contribution Widget -->
+                <div class="github-stats-container glass-card reveal mt-5">
+                    <h3><i class="fab fa-github"></i> GitHub Activity</h3>
+                    <div class="github-graph-placeholder" style="background: none; padding: 1rem 0;">
+                        <a href="https://github.com/msnawin" target="_blank">
+                            <img src="https://ghchart.rshah.org/msnawin" alt="msnawin's Github chart"
+                                style="width: 100%; max-width: 800px; display: block; margin: 0 auto; filter: hue-rotate(180deg) invert(1) brightness(1.5);">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- GeeksforGeeks Streaks Widget -->
+                <div class="github-stats-container glass-card reveal mt-5"
+                    style="border-top: 2px solid rgba(0, 255, 136, 0.2);">
+                    <h3><i class="fas fa-code" style="color: var(--primary-color);"></i> GeeksforGeeks Streaks &
+                        Activity</h3>
+                    <div class="gfg-stats-content" style="text-align: center; padding: 2rem;">
+                        <div
+                            style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+                            <div class="glass-card" style="padding: 1.5rem 3rem;">
+                                <h4
+                                    style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 0.5rem; font-family: 'JetBrains Mono', monospace;">
+                                    750+</h4>
+                                <p
+                                    style="color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
+                                    Problems Solved</p>
+                            </div>
+                            <div class="glass-card" style="padding: 1.5rem 3rem;">
+                                <h4
+                                    style="font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 0.5rem; font-family: 'JetBrains Mono', monospace;">
+                                    <i class="fas fa-fire"></i></h4>
+                                <p
+                                    style="color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
+                                    Active Streaks</p>
+                            </div>
+                        </div>
+                        <p style="color: var(--text-color); margin-bottom: 1.5rem;">See my complete daily coding streaks
+                            and advanced algorithmic problem-solving journey on GeeksforGeeks.</p>
+                        <a href="https://www.geeksforgeeks.org/profile/nawinsde?tab=activity" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-primary"
+                            style="display: inline-flex; align-items: center; gap: 10px;">
+                            View Complete GFG Profile <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-container glass-card reveal">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm currently looking for new opportunities. Whether you have a question or just want to say
+                            hi, I'll try my best to get back to you!</p>
+
+                        <div class="contact-links">
+                            <a href="mailto:nawinmutharasu2005@gmail.com" class="contact-item">
+                                <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                                <span>nawinmutharasu2005@gmail.com</span>
+                            </a>
+                            <a href="https://github.com/msnawin" target="_blank" rel="noopener noreferrer"
+                                class="contact-item">
+                                <div class="icon-box"><i class="fab fa-github"></i></div>
+                                <span>github.com/msnawin</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/nawin-m-s/" target="_blank" rel="noopener noreferrer"
+                                class="contact-item">
+                                <div class="icon-box"><i class="fab fa-linkedin-in"></i></div>
+                                <span>linkedin.com/in/nawin-m-s</span>
+                            </a>
+                            <div class="contact-item">
+                                <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                                <span>Chennai, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Nawin M S. Built with passion and Code.</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content-wrapper">
+            <img id="modalImage" class="modal-image" src="" alt="Achievement Full Size">
+            <p class="modal-caption" id="modalCaption"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
