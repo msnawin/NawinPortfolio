@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const texts = [
         "Hi, I'm Nawin M S",
         "Software Developer",
-        "Backend Developer"
+        "Backend Developer",
+        "National Chess Player"
     ];
     let textIndex = 0;
     let charIndex = 0;
