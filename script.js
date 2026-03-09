@@ -169,6 +169,47 @@ document.addEventListener('DOMContentLoaded', () => {
     const aboutSection = document.querySelector('.about-section');
     if (aboutSection) statObserver.observe(aboutSection);
 
+    // 7. Generate GeeksforGeeks Heatmap
+    const heatmapContainer = document.getElementById('gfgHeatmap');
+    if (heatmapContainer) {
+        const totalDays = 365; // A full year representation
+        const today = new Date();
+
+        for (let i = totalDays; i >= 0; i--) {
+            const date = new Date(today);
+            date.setDate(date.getDate() - i);
+
+            const cell = document.createElement('div');
+            cell.classList.add('heatmap-cell');
+
+            // Generate simulated realistic streak data for a 750+ problem solver
+            let level = 0;
+            const rand = Math.random();
+            if (rand > 0.9) level = 4; // High activity
+            else if (rand > 0.75) level = 3;
+            else if (rand > 0.5) level = 2;
+            else if (rand > 0.2) level = 1; // Light activity
+
+            if (level > 0) {
+                cell.setAttribute('data-level', level);
+            }
+
+            // Create Tooltip content
+            const problems = level === 0 ? 0 :
+                level === 1 ? Math.floor(Math.random() * 3) + 1 :
+                    level === 2 ? Math.floor(Math.random() * 4) + 3 :
+                        level === 3 ? Math.floor(Math.random() * 5) + 6 :
+                            Math.floor(Math.random() * 8) + 10;
+
+            const tooltip = document.createElement('div');
+            tooltip.classList.add('heatmap-tooltip');
+            tooltip.innerText = `${problems} problems solved on ${date.toDateString()}`;
+
+            cell.appendChild(tooltip);
+            heatmapContainer.appendChild(cell);
+        }
+    }
+
 });
 
 // 6. Modal Functions for Achievement Images

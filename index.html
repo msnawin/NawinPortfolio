@@ -14,6 +14,8 @@
         rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Devicon for Tech Stack Logos -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -70,6 +72,9 @@
                     </p>
                     <div class="hero-buttons">
                         <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="resume.pdf" download="Nawin_Resume.pdf" class="btn btn-primary">
+                            <i class="fas fa-file-download" style="margin-right: 8px;"></i>Resume
+                        </a>
                         <a href="#contact" class="btn btn-outline">Contact Me</a>
                         <a href="https://github.com/msnawin" target="_blank" rel="noopener noreferrer"
                             class="btn btn-icon">
@@ -169,67 +174,143 @@
                 <div class="skills-grid">
                     <!-- Programming Languages -->
                     <div class="skill-category glass-card reveal stagger-1">
-                        <h3><i class="fas fa-code text-primary"></i> Languages</h3>
-                        <div class="skill-badges">
-                            <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
-                            <span class="skill-badge"><i class="fas fa-c"></i> C</span>
+                        <h3><i class="fas fa-code text-primary"></i> Programming Languages</h3>
+                        <div class="tech-cards-container">
+                            <div class="tech-card">
+                                <i class="devicon-java-plain colored"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-c-plain colored"></i>
+                                <span>C</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-python-plain colored"></i>
+                                <span>Python</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Core CS -->
                     <div class="skill-category glass-card reveal stagger-2">
                         <h3><i class="fas fa-microchip text-primary"></i> Core CS</h3>
-                        <div class="skill-badges">
-                            <span class="skill-badge">DSA</span>
-                            <span class="skill-badge">OOP</span>
-                            <span class="skill-badge">OS</span>
-                            <span class="skill-badge">DBMS</span>
+                        <div class="tech-cards-container">
+                            <div class="tech-card">
+                                <i class="fas fa-project-diagram"
+                                    style="color: #00ff88; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>DSA</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-cubes"
+                                    style="color: #6366f1; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>OOP</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-laptop-code"
+                                    style="color: #0ea5e9; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>OS</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-database"
+                                    style="color: #f59e0b; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>DBMS</span>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Backend -->
+                    <!-- Backend / Frameworks -->
                     <div class="skill-category glass-card reveal stagger-3">
-                        <h3><i class="fas fa-server text-primary"></i> Backend</h3>
-                        <div class="skill-badges">
-                            <span class="skill-badge">Spring Boot</span>
-                            <span class="skill-badge">Spring Security</span>
-                            <span class="skill-badge">REST APIs</span>
-                            <span class="skill-badge">Hibernate</span>
-                            <span class="skill-badge">WebClient</span>
+                        <h3><i class="fas fa-server text-primary"></i> Backend / Frameworks</h3>
+                        <div class="tech-cards-container">
+                            <div class="tech-card">
+                                <i class="devicon-spring-original colored"></i>
+                                <span>Spring Boot</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-spring-plain colored"></i>
+                                <span>Spring Security</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-network-wired"
+                                    style="color: #a855f7; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>REST APIs</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-hibernate-plain colored"></i>
+                                <span>Hibernate</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Microservices -->
                     <div class="skill-category glass-card reveal stagger-1">
                         <h3><i class="fas fa-network-wired text-primary"></i> Microservices</h3>
-                        <div class="skill-badges">
-                            <span class="skill-badge">Eureka</span>
-                            <span class="skill-badge">API Gateway</span>
-                            <span class="skill-badge">Config Server</span>
-                            <span class="skill-badge">RabbitMQ</span>
+                        <div class="tech-cards-container">
+                            <div class="tech-card">
+                                <i class="fas fa-cogs"
+                                    style="color: #ec4899; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>Eureka</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-door-open"
+                                    style="color: #14b8a6; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>API Gateway</span>
+                            </div>
+                            <div class="tech-card">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg"
+                                    alt="RabbitMQ" style="width: 2.5rem; margin-bottom: 0.5rem;" />
+                                <span>RabbitMQ</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Databases -->
                     <div class="skill-category glass-card reveal stagger-2">
                         <h3><i class="fas fa-database text-primary"></i> Databases</h3>
-                        <div class="skill-badges">
-                            <span class="skill-badge">MySQL</span>
-                            <span class="skill-badge">MongoDB</span>
-                            <span class="skill-badge">TiDB</span>
+                        <div class="tech-cards-container">
+                            <div class="tech-card">
+                                <i class="devicon-mysql-original colored"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-mongodb-plain colored"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-server"
+                                    style="color: #ef4444; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>TiDB</span>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Tools & Security -->
+                    <!-- Tools & Platforms -->
                     <div class="skill-category glass-card reveal stagger-3">
-                        <h3><i class="fas fa-shield-alt text-primary"></i> Tools & Security</h3>
-                        <div class="skill-badges">
-                            <span class="skill-badge"><i class="fab fa-git-alt"></i> Git</span>
-                            <span class="skill-badge"><i class="fab fa-docker"></i> Docker</span>
-                            <span class="skill-badge">OAuth2</span>
-                            <span class="skill-badge">JWT</span>
-                            <span class="skill-badge">Keycloak</span>
-                            <span class="skill-badge">OpenAI API</span>
+                        <h3><i class="fas fa-toolbox text-primary"></i> Tools & Platforms</h3>
+                        <div class="tech-cards-container">
+                            <div class="tech-card">
+                                <i class="devicon-git-plain colored"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="devicon-docker-plain colored"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fab fa-keycdn"
+                                    style="color: #3b82f6; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>OAuth2</span>
+                            </div>
+                            <div class="tech-card">
+                                <img src="https://jwt.io/img/pic_logo.svg" alt="JWT"
+                                    style="width: 2.5rem; margin-bottom: 0.5rem;" />
+                                <span>JWT</span>
+                            </div>
+                            <div class="tech-card">
+                                <i class="fas fa-robot"
+                                    style="color: #10b981; font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                <span>OpenAI API</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -552,7 +633,8 @@
                             <div class="glass-card" style="padding: 1.5rem 3rem;">
                                 <h4
                                     style="font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 0.5rem; font-family: 'JetBrains Mono', monospace;">
-                                    <i class="fas fa-fire"></i></h4>
+                                    <i class="fas fa-fire"></i>
+                                </h4>
                                 <p
                                     style="color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
                                     Active Streaks</p>
